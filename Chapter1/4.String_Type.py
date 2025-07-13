@@ -48,3 +48,12 @@ print(x)
 "Print from backward and every second letter"
 w = e[::-2]
 print(w)
+
+"0126456789101112"
+k = "20230331Rainy"
+data = k[:8]   
+weather = k[8:] 
+
+print("="*20)
+print(data)
+print(weather)
