@@ -15,3 +15,7 @@ print(c)
 "will be total 10 spaces and then 3.4213 will fill the last"
 d= "%10.4f" % 3.42134234
 print(d)
+
+'same as using %-> 0 is index 0'
+e = "I eat {0} apples".format(3)
+print(e)
