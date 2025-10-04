@@ -14,6 +14,7 @@ while True:
         player_move = input('>')
         #Exit game if player wants
         if player_move == 'q':
+            #sys module -> exit the program
             sys.exit()
         if player_move == 'r' or player_move =='p' or player_move=='s':
             break
@@ -28,6 +29,7 @@ while True:
         print('SCISSORS versus')
 
     #disdplay what the computer chose:
+    #random module -> choose the random number 1, 2, 3
     move_number = random.randint(1,3)
     if move_number == 1:
         computer_move = 'r'
